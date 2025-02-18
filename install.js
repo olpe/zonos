@@ -88,7 +88,7 @@ module.exports = async (kernel) => {
         method: "shell.run",
         params: {
           sudo: true,
-          message: "yum install libaio-devel espeak-ng"
+          message: ""
         },
         next: 'end'
       },
@@ -97,7 +97,7 @@ module.exports = async (kernel) => {
         method: "shell.run",
         params: {
           sudo: true,
-          message: "winget install --id=eSpeak-NG.eSpeak-NG -e --silent --accept-source-agreements --accept-package-agreements"
+          message: ""
         }
       },
       {
