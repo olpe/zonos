@@ -79,7 +79,7 @@ module.exports = async (kernel) => {
         method: "shell.run",
         params: {
           sudo: true,
-          message: "apt install libaio-dev espeak-ng"
+          message: ""
         },
         next: 'end'
       },
